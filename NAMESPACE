@@ -1,0 +1,25 @@
+import(httr)
+import(jsonlite)
+importFrom(urltools, url_encode)
+
+exportClasses("Rosio")
+
+S3method(print, RosioDataset)
+S3method(print, RosioDevice)
+
+S3method(messages, RosioDataset)
+S3method(messages, RosioDevice)
+
+export(
+    ## user and authentication
+    Rosio,
+    username, password, jwt, key,
+    "username<-", "password<-", "jwt<-", "key<-",
+    whoami, getJWTtoken,
+    ## datasets
+    dataset,
+    ## devices
+    device, devices,
+    ## messages
+    messages
+)
