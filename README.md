@@ -2,13 +2,13 @@
 
 # `rosio`: An R interface to OpenSensors.io
 
-[![Linux Build Status](https://travis-ci.org//rosio.svg?branch=master)](https://travis-ci.org/rosio)
-[![](http://www.r-pkg.org/badges/version/rosio)](http://www.r-pkg.org/pkg/rosio)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rosio)](http://www.r-pkg.org/pkg/rosio)
+<!-- [![Linux Build Status](https://travis-ci.org//rosio.svg?branch=master)](https://travis-ci.org/rosio) -->
+<!-- [![](http://www.r-pkg.org/badges/version/rosio)](http://www.r-pkg.org/pkg/rosio) -->
+<!-- [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rosio)](http://www.r-pkg.org/pkg/rosio) -->
 
 > The `rosio` package is in very early development. It will be updated
 > regularly and current functionality is very likely to evolve. Enjoy
-> at your own risks!
+> at your own risks! 
 
 ## Installation
 
@@ -36,9 +36,9 @@ ls("package:rosio")
 ```
 
 ```
-##  [1] "dataset"     "device"      "getJWTtoken" "jwt"         "jwt<-"      
-##  [6] "key"         "key<-"       "messages"    "password"    "password<-" 
-## [11] "Rosio"       "username"    "username<-"  "whoami"
+##  [1] "dataset"     "device"      "devices"     "getJWTtoken" "jwt"        
+##  [6] "jwt<-"       "key"         "key<-"       "messages"    "password"   
+## [11] "password<-"  "Rosio"       "username"    "username<-"  "whoami"
 ```
 
 ## Questions, bugs, requests

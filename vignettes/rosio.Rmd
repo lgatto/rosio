@@ -31,6 +31,12 @@ a user, you will have an identifier and a unique API key.
 <!-- In the rest of this document, we will be using data from the -->
 <!-- [*London air quality network* organisation](https://publisher.opensensors.io/orgs/london-air-quality-network). -->
 
+Let's get started
+
+```{r}
+library("rosio")
+```
+
 
 ## Data streams
 
@@ -86,3 +92,17 @@ messages(kw, duration = 3600)
 ```
 
 ## Devices
+
+To get a user's devices
+
+```{r}
+devices(usr)
+```
+
+```{r}
+(dev <- device(5424))
+```
+
+```{r}
+messages(dev, usr, start.date = "2016-11-14")
+```
