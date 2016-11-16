@@ -28,7 +28,7 @@ library("rosio")
 ## This is rosio version 0.0.1
 ```
 
-Currenlty, there is 
+Currently, there is 
 
 
 ```r
