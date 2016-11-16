@@ -22,7 +22,7 @@ devtools::install_github("OpenSensorsIO/rosio")
 library("rosio")
 ```
 
-Currenlty, there is 
+Currently, there is 
 
 ```{r}
 ls("package:rosio")
