@@ -41,6 +41,10 @@ ls("package:rosio")
 ## [11] "password<-"  "Rosio"       "username"    "username<-"  "whoami"
 ```
 
+The progress of the package is documented in the
+[vignette](https://github.com/lgatto/rosio/blob/master/vignettes/rosio.md). More
+documentation will follow soon.
+
 ## Questions, bugs, requests
 
 Please use the GitHub
