@@ -2,7 +2,7 @@
 title: "Opensensors.io using R"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteEngine{knitr::knitr}
+  %\VignetteEngine{knitr::rmarkdown}
   %\VignetteIndexEntry{Opensensors.io using R}
 ---
 

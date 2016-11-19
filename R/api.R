@@ -70,17 +70,18 @@ devices <- function(user) {
     suppressMessages(fromJSON(content(got, type = "text")))
 }
 
-messages.RosioDevice <- function(dev, user,
+messages.RosioDevice <- function(x, user,
                                  start.date,
                                  start.time = "12:00",
                                  end.date = format(Sys.time(), "%Y-%m-%d"),
-                                 end.time = format(Sys.time(), "%H:%M")) {
+                                 end.time = format(Sys.time(), "%H:%M"),
+                                 ...) {
     msg1 <- msg2 <- list()
     if (.empty(username(user)))
         stop("I need a api-key to access a user's device.")
     start <- paste(start.date, start.time, sep = "T")
     end <- paste(end.date, end.time, sep = "T")
-    URL <- paste0(BASEURL1, "/messages/device/", dev$id,
+    URL <- paste0(BASEURL1, "/messages/device/", x$id,
                   "?start-date=", url_encode(start), "Z",
                   "&end-date=", url_encode(end), "Z")
     hd <- add_headers(Authorization = paste('api-key', key(user)))

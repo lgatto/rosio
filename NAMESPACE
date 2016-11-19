@@ -2,6 +2,8 @@ import(httr)
 import(dplyr)
 import(jsonlite)
 importFrom(urltools, url_encode)
+importFrom(utils, packageVersion)
+importFrom(methods, new)
 
 exportClasses("Rosio")
 

@@ -2,6 +2,8 @@
 \alias{rosio}
 
 
+\alias{Rosio-class}
+\alias{Rosio}
 \alias{dataset}
 \alias{device}
 \alias{devices}
@@ -13,7 +15,6 @@
 \alias{messages}
 \alias{password}
 \alias{password<-}
-\alias{Rosio}
 \alias{username}
 \alias{username<-}
 \alias{whoami}
@@ -30,6 +31,7 @@
   To report issues, request features or contribute, please use the
   package's github repository. The vignette provides an overview of the
   current functionality.
+
+  \url{https://github.com/lgatto/rosio}  
 }
 
-\url{https://github.com/lgatto/rosio}
