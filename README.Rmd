@@ -2,7 +2,7 @@
 
 # `rosio`: An R interface to OpenSensors.io
 
-[![Linux Build Status](https://travis-ci.org//rosio.svg?branch=master)](https://travis-ci.org/rosio)
+[![Linux Build Status](https://travis-ci.org/lgatto/rosio.svg?branch=master)](https://travis-ci.org/rosio)
 [![](http://www.r-pkg.org/badges/version/rosio)](http://www.r-pkg.org/pkg/rosio)
 <!-- [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rosio)](http://www.r-pkg.org/pkg/rosio) -->
 
