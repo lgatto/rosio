@@ -13,7 +13,7 @@
 ## Installation
 
 ```r
-devtools::install_github("OpenSensorsIO/rosio")
+devtools::install_github("lgatto/rosio")
 ```
 
 ## Usage
