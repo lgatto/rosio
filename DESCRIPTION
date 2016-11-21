@@ -2,7 +2,7 @@ Package: rosio
 Title: An R interface to OpenSensors.io
 Version: 0.0.1
 Author: Laurent Gatto
-Maintainer: Laurent Gatto <laurent.gatto@gmail.com>
+Maintainer: Laurent Gatto <laurent@opensensors.io>
 Description: Accessing OpenSensors.io streams from R.
 License: GPL-2
 URL: https://github.com/lgatto/rosio
